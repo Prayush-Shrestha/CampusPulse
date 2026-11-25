@@ -1,5 +1,5 @@
-import { CalendarDays, Users, ClipboardList, CheckCircle2, Megaphone, ChartNoAxesCombined, Settings } from 'lucide-react';
-const configs:Record<string,{title:string;desc:string;icon:any;rows:string[]}>={
+import { LucideIcon, CalendarDays, Users, ClipboardList, CheckCircle2, Megaphone, ChartNoAxesCombined, Settings } from 'lucide-react';
+const configs:Record<string,{title:string;desc:string;icon:LucideIcon;rows:string[]}>={
  events:{title:'Events',desc:'Create, organize and keep track of campus events.',icon:CalendarDays,rows:['Design Thinking Workshop','Inter-college Basketball','Tech Career Connect','Creative Showcase']},
  clubs:{title:'Clubs & communities',desc:'Manage student communities, leadership and membership.',icon:Users,rows:['Developer Society','Music Collective','Entrepreneurship Club','Photography Circle']},
  registrations:{title:'Registrations',desc:'Review sign-ups and manage attendee lists.',icon:ClipboardList,rows:['Design Thinking Workshop','Inter-college Basketball','Tech Career Connect','Creative Showcase']},
